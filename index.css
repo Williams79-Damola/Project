@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.Section-1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Bola-1{
+    width: 20%;
+    min-height: 60vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:hsl(228, 45%, 44%) ;
+}
+.Bola-1 h1{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.Bola-2{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px 50px 25px 50px;
+    background-color: hsl(228, 45%, 44%) ;
+    border-radius: 100px;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px, rgba(0,0,0,0.3) 0px 30px 60px -30px;
+    position: relative;
+    opacity: 35;
+}
+.Bola-2 h3{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    right: 65px;
+    color: white;
+}
+.Bola-2 p{
+    font-weight: bold;
+    font-size: 14px;
+    right: 65px;
+    color: white;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    right: 65px;
+    color: white;
+}
+h3 + p{
+    font-weight: bold;
+    font-size: 13px;
+    right: 65px;
+    color: white;
+}
+.Bola-3{
+    width: 20%;
+    min-height: 50vh;
+    background-color:white ;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px, rgba(0,0,0,0.3) 0px 30px 60px -30px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.Bola-3 h4{
+    position: relative;
+    right: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    bottom: 10px;
+}
+.Williy-1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.Williy-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.Williy-3{
+    display: flex;
+    margin-bottom: 20px;
+}
+.Williy-4{
+    display: flex;
+    margin-bottom: 20px;
+}
+.Reaction{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Memory{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Verbal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Visual{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+button{
+    border-radius: 100px;
+    background-color: hsl(228, 45%, 44%) ;
+    color: white;
+    padding: 30px;
+    width: 80%;
+    height: 4%;
+    text-align: center;
+    border:     none;
+}
+@media screen and (max-width:500px) {
+    .Section-1{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .Bola-1{
+        width: 80%;
+        min-height: 60vh;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color:hsl(228, 45%, 44%) ;
+    }
+    .Bola-3{
+        width: 80%;
+        min-height: 50vh;
+        background-color:white ;
+        box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px, rgba(0,0,0,0.3) 0px 30px 60px -30px;
+        padding: 30px;
+        border-radius: 30px;
+    }
+}
